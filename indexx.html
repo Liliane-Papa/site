@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        background-color: #f2f2f2;
+        font-family: arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+
+    }
+
+    h1 {
+        color: #333;
+
+    }
+
+
+    .card {
+        background-color: #1a1a1a;
+        color: #ccc;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 2px;
+        max-width: 500px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 2);
+        text-align: left;
+
+    }
+
+    .card h2 {
+        color: #ffffff;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .preco {
+        color:rgb(224, 15, 15);
+        font-weight: bold;
+    }
+
+    .destaque {
+        color: rgb(255, 0, 0);
+    }
+
+    .botao {
+        background-color: rgb(221, 13, 13);
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        font-size: 16px;
+        margin-top: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .botao.hover {
+        background-color: rgb(255, 0, 0);
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Carros e Bicicletas</h1>
+
+    <div class="card">
+        <h2> Carro: <span class="preco">R$ 1999 </span></h2>
+        <p> Carro modelo <span class="destaque"> 2045 </span> com <span class="destaque"> 200km</span> rodados.</p>
+        <button class="botao"> Comprar Carro </button>
+    </div>
+
+    <div class="card">
+        <h2> Bicicleta: <span class="preco">R$ 199 </span></h2>
+        <p> Bicicleta modelo <span class="destaque"> 2050 </span> com <span class="destaque"> 20km</span> rodados.</p>
+        <button class="botao"> Comprar bicicleta </button>
+    </div>
+
+</body>
+
+</html>
